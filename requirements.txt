@@ -1,0 +1,11 @@
+streamlit
+qrcode[pil]
+Pillow
+reportlab
+pandas
+plotly
+opencv-python-headless
+numpy
+python-dotenv
+requests
+pydeck
