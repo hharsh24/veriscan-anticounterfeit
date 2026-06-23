@@ -1,8 +1,15 @@
+# Python
 __pycache__/
 *.pyc
-*.db
-*.sqlite
+*.pyo
 .env
-assets/reports/
-*.pdf
-.DS_Store
+
+# Database (will be re-created on deploy)
+veriscan.db
+
+# Crypto private keys - NEVER commit these
+keys/private_key.pem
+keys/
+
+# Streamlit secrets
+.streamlit/secrets.toml
